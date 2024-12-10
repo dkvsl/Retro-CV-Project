@@ -1,72 +1,36 @@
-# Retro CV Project
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project is a retro-styled CV (Curriculum Vitae) built with Next.js and styled using Tailwind CSS. It features a unique, retro-inspired design with custom components and styling.
+## Getting Started
 
-## Prerequisites
+First, run the development server:
 
-Before you begin, ensure you have the following installed on your system:
-
-- Node.js (version 14 or later)
-- npm (usually comes with Node.js)
-- Git
-
-## Installation
-
-Follow these steps to set up the project on your local machine:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/retro-cv.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd retro-cv
-   ```
-
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-
-## Running the Development Server
-
-To start the development server, run the following command:
-
-```
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Customizing Your CV
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-To customize the CV with your own information:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. Open the `app/page.tsx` file.
-2. Modify the `personalInfo`, `skillBadges`, `skills`, `experience`, and `education` objects with your own data.
-3. If you want to change the styling, you can modify the Tailwind classes in the JSX or update the global styles in `app/globals.css`.
+## Learn More
 
-## Adding Your Own Profile Picture
+To learn more about Next.js, take a look at the following resources:
 
-To add your own profile picture:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Place your image file in the `public/images/` directory.
-2. Update the `photo` property in the `personalInfo` object in `app/page.tsx` to point to your new image.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploying Your CV
+## Deploy on Vercel
 
-You can deploy your CV to various platforms. One easy option is to use Vercel:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-1. Push your changes to a GitHub repository.
-2. Go to [Vercel](https://vercel.com) and sign up or log in.
-3. Click "New Project" and select your GitHub repository.
-4. Follow the prompts to deploy your project.
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
