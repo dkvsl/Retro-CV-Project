@@ -23,4 +23,3 @@ export function SkillBadge({ skill }: SkillBadgeProps) {
     <img src={badgeStyles[skill] || `https://img.shields.io/badge/${skill}-lightgrey?style=for-the-badge`} alt={skill} />
   )
 }
-

@@ -11,4 +11,3 @@ export function MarkdownSection({ content }: MarkdownSectionProps) {
     </ReactMarkdown>
   )
 }
-

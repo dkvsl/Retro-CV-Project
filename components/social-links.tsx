@@ -66,4 +66,3 @@ export function SocialLinks({ githubUrl, dockerUrl }: SocialLinksProps) {
     </div>
   )
 }
-

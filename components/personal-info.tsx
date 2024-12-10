@@ -31,4 +31,3 @@ export function PersonalInfo({ name, phone, email, address, photo }: PersonalInf
     </Card>
   )
 }
-

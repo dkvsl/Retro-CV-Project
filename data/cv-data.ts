@@ -1,11 +1,11 @@
 export const personalInfo = {
-  name: "Daniel Longas Martinez",
-  phone: "629 387 350",
-  email: "hola@darkovisual.com",
-  address: "Zaragoza, España",
+  name: "Your Name",
+  phone: "+1 234 567 890",
+  email: "your.email@example.com",
+  address: "Your City, Country",
   photo: "/images/default-profile.svg",
-  githubUrl: "https://github.com/dkvsl",
-  dockerUrl: "https://hub.docker.com/u/darkovisual"
+  githubUrl: "https://github.com/yourusername",
+  dockerUrl: "https://hub.docker.com/u/yourusername"
 }
 
 export const skills = {
@@ -25,17 +25,17 @@ export const skills = {
     "GitHub"
   ],
   markdown: `
-- **automatizaciones:** n8n, make, flowiseai
-- **entrenamiento:** LLM, Finetune, Lora, kohya_SS, Huggingface, pytorch, transformers
-- **text to image:** stable-diffusion, Dall-E
-- **bases de datos vectoriales para RAG:** Chromadb, Qdrant, Milvus
-- **manejo de:** VSCode, Github, OracleCloud
+## Technical Skills
 
-## Otros Skills
+- **Programming Languages:** JavaScript, TypeScript, Python, SQL
+- **Frameworks & Libraries:** Next.js, React, Node.js, Express
+- **Tools & Platforms:** Git, Docker, AWS, Azure
 
-      - implementación de servidores Linux
-      - Creacion e implementación de entornos Docker
-      - Github
+## Soft Skills
+
+- Strong problem-solving abilities
+- Excellent communication skills
+- Team leadership and collaboration
   `
 }
 
@@ -89,12 +89,16 @@ export const experience = [
 
 export const education = {
   markdown: `
-- **Centro Tecnologias Avanzadas:**
-- Postproducción Audiovisual Adobe Premier
-- Tecnico Fotografico
-- Experto sector Telecomunicaciones
-- **Universidad San Jorge (CPA Salduie):** Grado Operador de Cámara
-- **Instituto Miguel Catalán:** FP Grado medio Administrativo e Informatica
+## Computer Science Degree
+*Tech University, 2019*
+
+- First Class Honours
+- Best Project Award
+
+## Online Courses and Certifications
+
+- AWS Certified Solutions Architect
+- Google Cloud Professional Data Engineer
+- Coursera Machine Learning Specialization
   `
 }
-
