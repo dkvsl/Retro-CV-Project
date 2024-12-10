@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 10%;
+    --foreground: 45 100% 45%;
+ 
+    --card: 0 0% 14%;
+    --card-foreground: 45 100% 45%;
+ 
+    --border: 45 80% 55%;
+    --input: 45 80% 55%;
+  }
+}
